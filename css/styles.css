@@ -1,0 +1,265 @@
+/* Interior */
+body {
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+}
+
+.white-title{
+    color: white;
+}
+
+#title {
+    height: 750px;
+    position: relative;
+
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+
+.container-fluid {
+    padding: 7% 15%;
+}
+
+#title .container-fluid{
+    padding: 3% 15%;
+}
+
+/* Sections */
+
+.colored-section{
+    background-color: rgb(52, 85, 105);
+    color: darkgray;
+}
+
+.white-section{
+    background-color: #fff;
+}
+
+
+/* Nav Bar */
+
+.nav-title {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 3.5rem;
+    font-weight: bold;
+}
+
+.navbar {
+    padding: 0 0 5.5rem;
+}
+
+.nav-link {
+    margin-left: 40px;
+    font-size: 20px;
+}
+
+
+/* title section */
+.title-font {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 3.5rem;
+    line-height: 1.5;
+    text-align: left;
+}
+
+.rotateimg180 {
+    width: 60%;
+    transform: rotate(12deg);
+    position: absolute;
+    right: 20%;
+}
+
+#features {
+    position: relative;
+    background-color: white;
+}
+
+
+/* Body Style */
+
+.col-sm {
+    padding: 80px;
+}
+
+.red {
+    color: rgb(73, 148, 194);
+    margin-bottom: 1rem;
+}
+
+.red:hover {
+    color: red;
+}
+
+.under-title {
+    font-family: 'Ubuntu', 'sans-serif';
+    font-size: 1.5rem;
+}
+
+.under-title-body {
+    font-family: 'Ubuntu', 'sans-serif';
+    color: grey;
+}
+
+/* Carousel/Major Projects */
+
+#carousel {
+    height: 500px;
+}
+
+.carousel-text{
+    font-family: "Montserrat";
+    font-size: 3rem;
+    line-height: 1.5;
+    font-weight: bold;
+    text-decoration: none;
+    color: Gray;
+}
+
+.carousel-text:hover{
+    color: Black;
+    
+}
+
+.carousel-image {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+
+
+#press {
+    padding-bottom: 3%;
+}
+
+.custom-image {
+    width: 15%;
+    margin: 50px 20px 50px;
+}
+
+
+
+#carouselExampleControls {
+    height: 300px;
+}
+
+
+.carousel {
+    margin: auto;
+    width: 90%;
+}
+
+/* Minor Projects */
+
+#pricing {
+    margin: 35px auto;
+}
+
+.price-button {
+    margin: 100px;
+}
+
+.project-1-image{
+    background-image: url(../images/project-1-image.png);
+    background-size: cover;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.project-2-image{
+    background-image: url(../images/project-2-image.png);
+    background-size: cover;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.project-3-image{
+    background-image: url(../images/project-3-image.png);
+    background-size: cover;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.project-4-image{
+    background-image: url(../images/project-4-image.png);
+    background-size: cover;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.project-5-image{
+    background-image: url(../images/project-5-image.png);
+    background-size: cover;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.project-6-image{
+    background-image: url(../images/project-6-image.png);
+    background-size: cover;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.price-col {
+    padding: 5%;
+    margin-bottom: 20px;
+}
+
+.minor-text{
+    font-family: "Montserrat";
+    font-size: 3rem;
+    line-height: 1.5;
+    font-weight: bold;
+}
+
+
+
+/* footersection */
+#footer {
+    padding: 7% 10%;
+}
+
+.fa-twitter-square, .fa-instagram, .fa-envelope, .fa-facebook-square {
+    margin: 10px;
+    color: rgb(73, 148, 194)n;
+}
+
+.fa-facebook-square:hover {
+    color: blue;
+}
+
+.fa-twitter-square:hover {
+    color: aqua;
+}
+
+.fa-instagram:hover {
+    color: orangered;
+}
+
+.fa-envelope:hover {
+    color: red;
+}
+
+/* Mobile adaptation */
+
+@media (max-width: 1028px) {
+    #title {
+        text-align: center;
+        height: auto;
+    }
+
+    .rotateimg180 {
+        position: static;
+        transform: rotate(0);
+    }
+}
+
+@media (max-width: 640px) {
+    #testimonials{
+        height: 600px;
+    }
+}
